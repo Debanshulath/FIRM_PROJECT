@@ -39,7 +39,7 @@ font-weight:600;
 ========================= */
 header {
   background: #000;
-  padding: 15px 40px;
+  padding:5px 40px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -51,16 +51,31 @@ nav {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: white;
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:1.5rem;
+  font-weight:800;
+  letter-spacing:1px;
+  text-transform:uppercase;
 }
 
-.logo span {
-  color: var(--primary);
+/* Logo image (if you add icon later) */
+.logo img{
+  height:80px;
+  width:auto;
 }
 
+/* VALAR → WHITE */
+.logo{
+  color:#ffffff;
+}
+
+/* EXPRESS → RED */
+.logo span{
+  color:#c40000; /* your primary red */
+}
 /* NAV LINKS */
 .nav-links {
   list-style: none;
