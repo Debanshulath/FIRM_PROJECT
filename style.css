@@ -63,7 +63,7 @@ nav {
 
 /* Logo image (if you add icon later) */
 .logo img{
-  height:80px;
+  height:100px;
   width:auto;
 }
 
@@ -250,7 +250,7 @@ z-index:999;
    SECTION
 ========================= */
 section {
-  padding: 80px 10%;
+  padding:40px 10%;
 }
 
 h2 {
