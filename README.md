@@ -7,3 +7,5 @@
 ![image alt](https://github.com/Debanshulath/FIRM_PROJECT/blob/95e4b1e5b16545d7dbff8509ee62465b3fa3862c/Automotive%20Spare%20Parts.jpg)
 ![image alt](https://github.com/Debanshulath/FIRM_PROJECT/blob/95e4b1e5b16545d7dbff8509ee62465b3fa3862c/Machinery%20Parts.jpg)
 ![image alt](https://github.com/Debanshulath/FIRM_PROJECT/blob/95e4b1e5b16545d7dbff8509ee62465b3fa3862c/Industrial%20Components.webp)
+![image alt](https://github.com/Debanshulath/FIRM_PROJECT/blob/a3296543623e33764dc612aef51d35045dd97caf/industrial-components2.png)
+![image alt](https://github.com/Debanshulath/FIRM_PROJECT/blob/a3296543623e33764dc612aef51d35045dd97caf/industrial-components3.png)
