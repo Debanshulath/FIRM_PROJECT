@@ -358,6 +358,12 @@ h2::after {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 25px;
 }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 300px)); /* 👈 FIX */
+  gap: 25px;
+  justify-content: center; /* 👈 centers cards */
+}
 /* =========================
    FORM
 ========================= */
