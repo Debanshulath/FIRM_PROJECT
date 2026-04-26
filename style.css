@@ -47,7 +47,7 @@ nav {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1180px;
-  min-height: 92px;
+  min-height: 78px;
   padding: 0 24px;
 }
 
@@ -59,7 +59,7 @@ nav {
 
 .logo img {
   display: block;
-  height: 84px;
+  height: 68px;
   object-fit: contain;
   width: auto;
 }
@@ -278,9 +278,10 @@ h1.page-title::after {
 
 .brand-grid {
   align-items: center;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 22px;
-  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  justify-content: center;
 }
 
 .brand-grid img {
@@ -291,7 +292,7 @@ h1.page-title::after {
   height: 82px;
   object-fit: contain;
   padding: 18px;
-  width: 100%;
+  width: 170px;
 }
 
 .cards {
@@ -539,11 +540,11 @@ form textarea:focus {
 
 @media (max-width: 900px) {
   nav {
-    min-height: 82px;
+    min-height: 70px;
   }
 
   .logo img {
-    height: 72px;
+    height: 58px;
   }
 
   .hamburger {
@@ -561,7 +562,7 @@ form textarea:focus {
     position: absolute;
     right: 0;
     text-align: center;
-    top: 82px;
+    top: 70px;
     transition: max-height 0.3s ease;
   }
 
@@ -580,7 +581,6 @@ form textarea:focus {
   }
 
   .trust-strip,
-  .brand-grid,
   .about-grid,
   .contact-grid,
   .footer-grid {
@@ -617,8 +617,8 @@ form textarea:focus {
     grid-template-columns: 1fr;
   }
 
-  .brand-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .brand-grid img {
+    width: min(170px, calc(50% - 11px));
   }
 
   .about-panel,
