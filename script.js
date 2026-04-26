@@ -74,7 +74,15 @@ if (inquiryForm) {
       return;
     }
 
-    const text = `Hello Valar Express,%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AEmail: ${encodeURIComponent(email)}%0ARequirement: ${encodeURIComponent(message)}`;
-    window.open(`https://wa.me/919905852803?text=${text}`, "_blank", "noopener");
+    const text = [
+      "Hello Valar Express,",
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Email: ${email}`,
+      `Requirement: ${message}`,
+    ].join("\n");
+
+    const params = new URLSearchParams({ text });
+    window.open(`https://wa.me/919905852803?${params.toString()}`, "_blank", "noopener");
   });
 }
