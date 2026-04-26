@@ -1,162 +1,108 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="color-scheme" content="light dark">
-  <title>Valar Express - Global Spare Parts Supplier</title>
-  <meta name="description" content="Trusted supplier of automotive, machinery, electrical & industrial spare parts. Serving India and international clients with genuine parts & fast delivery."/>
-  <meta name="keywords"
-content="Spare parts supplier India, automotive spare parts exporter,
-industrial spare parts Raipur, machinery spare parts India">
-
-<meta name="author" content="Valar Express">
-<link rel="canonical" href="https://valarexpress.com/">
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Valar Express</title>
+  <meta name="description" content="Explore automotive, machinery, electrical and industrial spare parts supplied by Valar Express.">
+  <meta name="keywords" content="automotive spare parts, machinery parts, electrical components, industrial components, furnace spares, laboratory supplies">
+  <meta property="og:title" content="Products - Valar Express">
+  <meta property="og:description" content="Explore automotive, machinery, electrical and industrial spare parts supplied by Valar Express.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://valarexpress.com/product.html">
+  <meta property="og:image" content="https://valarexpress.com/Industrial%20Components.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://valarexpress.com/product.html">
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
+  <header>
     <nav>
-      <!-- Logo -->
-      <div class="logo">
-  <img src="main logo.png" alt="Valar Express Logo">
-  <div>
-    
-  </div>
-</div>
+      <a class="logo" href="index.html" aria-label="Valar Express home"><img src="main logo.png" alt="Valar Express"></a>
+      <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+      <label for="menu-toggle" class="hamburger" aria-hidden="true"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Checkbox + Hamburger Label (three lines → X animation) -->
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-      <span></span> <!-- this is the middle line -->
-    </label>
+  <main>
+    <section>
+      <div class="container">
+        <h1 class="page-title animate-fade-in">Our Product Catalog</h1>
+        <p class="section-intro animate-fade-in">Search by category or component type, then send your requirement for price, availability and delivery options.</p>
+        <input type="search" id="search" class="search-box" placeholder="Search spare parts..." aria-label="Search products">
 
-    <!-- Menu links – must be after checkbox for ~ selector to work -->
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="service.html">Services</a></li>
-      <li><a href="product.html">Products</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<!-- Same head + header -->
-
-<section>
-  <h2 class="animate-fade-in">Our Product Catalog</h2>
-  
-  <p style="text-align:center; margin-bottom:3rem; color: var(--color-text-muted);">
-    Browse our wide range of spare parts. Send inquiry for price, availability & custom orders.
-  </p>
-
-<input type="text" id="search" placeholder="Search spare parts..."
-style="display:block;margin:0 auto 30px;padding:12px;width:300px;border-radius:8px;border:1px solid #ccc;">
-  
-<div class="cards">
-    <div class="card animate-fade-in">
-      <img src="Automotive Spare Parts.jpg" alt="Automotive Spare Parts">
-      <div class="card-content">
-        <h3>Automotive Spare Parts</h3>
-        <p>Brakes • Engines • Filters • Suspension • Transmission</p>
-        <a href="contact.html" class="btn">Inquire Now</a>
+        <div class="cards product-grid">
+          <article class="card animate-fade-in" data-search-card>
+            <img src="Automotive Spare Parts.jpg" alt="Automotive spare parts" loading="lazy">
+            <div class="card-content">
+              <h3>Automotive Spare Parts</h3>
+              <p>Brakes, engines, filters, suspension, transmission and vehicle maintenance parts.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+          <article class="card animate-fade-in" data-search-card>
+            <img src="Machinery Parts.jpg" alt="Machinery parts" loading="lazy">
+            <div class="card-content">
+              <h3>Machinery Parts</h3>
+              <p>Bearings, gears, motors, pumps, valves and machine maintenance spares.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+          <article class="card animate-fade-in" data-search-card>
+            <img src="Electrical Parts.jpg" alt="Electrical components" loading="lazy">
+            <div class="card-content">
+              <h3>Electrical Components</h3>
+              <p>Relays, switches, controls, sensors, wiring, connectors and panel spares.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+          <article class="card animate-fade-in" data-search-card>
+            <img src="Industrial Components.webp" alt="Industrial components" loading="lazy">
+            <div class="card-content">
+              <h3>Industrial Components</h3>
+              <p>Fittings, hydraulics, pneumatics, production spares and heavy-duty components.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+          <article class="card animate-fade-in" data-search-card>
+            <img src="industrial-components2.png" alt="Furnace and process spares" loading="lazy">
+            <div class="card-content">
+              <h3>Furnace & Process Spares</h3>
+              <p>Heat treatment consumables, furnace spares and process-support components.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+          <article class="card animate-fade-in" data-search-card>
+            <img src="industrial-components3.png" alt="Laboratory and filtration supplies" loading="lazy">
+            <div class="card-content">
+              <h3>Laboratory Supplies</h3>
+              <p>Filtration membranes, centrifuge support, lab apparatus and related consumables.</p>
+              <a href="contact.html" class="btn">Inquire Now</a>
+            </div>
+          </article>
+        </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-grid">
+      <div><h3>VALAR EXPRESS</h3><p>Industrial solutions and spare parts sourcing for manufacturing, laboratory and maintenance teams.</p></div>
+      <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="service.html">Services</a><a href="product.html">Products</a><a href="contact.html">Contact</a></div>
+      <div><h4>Products</h4><p>Automotive Parts</p><p>Machinery Components</p><p>Electrical Components</p><p>Industrial Spares</p></div>
+      <div><h4>Contact</h4><p>Jamshedpur, Jharkhand, India</p><p>Sales Executive: Mr Harshit Pandey</p><p>+91 99058 52803</p><p>info@valarexpress.com</p><p>Worldwide Shipping</p></div>
     </div>
-
-    <div class="card animate-fade-in">
-      <img src="Machinery Parts.jpg" alt="Machinery Parts">
-      <div class="card-content">
-        <h3>Machinery Parts</h3>
-        <p>Bearings • Gears • Motors • Pumps • Valves</p>
-        <a href="contact.html" class="btn">Inquire Now</a>
-      </div>
-    </div>
-
-   
-
-    <div class="card animate-fade-in">
-      <img src="Industrial Components.webp" alt="Industrial Components">
-      <div class="card-content">
-        <h3>Industrial Components</h3>
-        <p>Fittings • Hydraulics • Pneumatics • Heavy-duty spares</p>
-        <a href="contact.html" class="btn">Inquire Now</a>
-      </div>
-    </div>
-    <div class="card animate-fade-in">
-      <img src="industrial-components2.png" alt="Industrial Components">
-      <div class="card-content">
-        <h3>Industrial Components</h3>
-        <p>Fittings • Hydraulics • Pneumatics • Heavy-duty spares</p>
-        <a href="contact.html" class="btn">Inquire Now</a>
-      </div>
-    </div><div class="card animate-fade-in">
-      <img src="industrial-components3.png" alt="Industrial Components">
-      <div class="card-content">
-        <h3>Industrial Components</h3>
-        <p>Fittings • Hydraulics • Pneumatics • Heavy-duty spares</p>
-        <a href="contact.html" class="btn">Inquire Now</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- footer + WhatsApp -->
-
-<footer class="main-footer">
-
-  <div class="footer-grid">
-
-    <div>
-      <h3>VALAR EXPRESS</h3>
-      <p>
-        Global supplier of genuine automotive, machinery, electrical
-        and industrial spare parts. Fast sourcing, trusted delivery,
-        worldwide service.
-      </p>
-    </div>
-
-    <div>
-      <h4>Quick Links</h4>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="service.html">Services</a>
-      <a href="product.html">Products</a>
-      <a href="contact.html">Contact</a>
-    </div>
-
-    <div>
-      <h4>Our Products</h4>
-      <p>Automotive Parts</p>
-      <p>Machinery Components</p>
-      <p>Industrial Spares</p>
-    </div>
-
-    <div>
-      <h4>Contact</h4>
-      <p>📍 Jamshedpur, Jharkhand, India</p>
-      <p>🙍🏻Sales Executive- Mr Harshit Pandey</p>
-      <p>📞 +919905852803</p>
-      <p>✉ info@valarexpress.com</p>
-      <p>🌍 Worldwide Shipping</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    © 2026 Valar Express. All Rights Reserved.
-  </div>
-
-</footer>
-
-<a href="https://wa.me/919905852803?text=Hello%20Valar%20Express%2C%20I%20need%20spare%20parts%20information"
-   class="whatsapp"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="Chat on WhatsApp">
-  <img src="WP_IMAGE.avif" alt="WhatsApp" width="100%" height="100%">
-</a>
-<script src="script.js"></script>
+    <div class="footer-bottom">© 2026 Valar Express. All Rights Reserved.</div>
+  </footer>
+  <a href="https://wa.me/919905852803?text=Hello%20Valar%20Express%2C%20I%20need%20spare%20parts%20information" class="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><img src="WP_IMAGE.avif" alt="WhatsApp"></a>
+  <script src="script.js"></script>
 </body>
 </html>
