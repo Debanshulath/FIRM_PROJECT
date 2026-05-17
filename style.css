@@ -554,7 +554,7 @@ form textarea:focus {
   }
 
   .nav-links {
-    background: #000;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 0;
