@@ -35,7 +35,9 @@ a {
 }
 
 header {
-  background: #000;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -72,7 +74,7 @@ nav {
 }
 
 .nav-links a {
-  color: var(--white);
+  color: var(--ink);
   font-size: 0.98rem;
   font-weight: 600;
   text-decoration: none;
@@ -99,7 +101,7 @@ nav {
 .hamburger span,
 .hamburger::before,
 .hamburger::after {
-  background: var(--white);
+  background: var(--ink);
   content: "";
   height: 3px;
   left: 0;
@@ -194,7 +196,7 @@ h1.page-title::after {
 .hero-pro {
   background:
     linear-gradient(rgba(12, 18, 28, 0.76), rgba(12, 18, 28, 0.82)),
-    url("images/industrial-components.png") center/cover;
+    url("ChatGPT\ Image\ May\ 17\,\ 2026\,\ 04_41_02\ PM.png") center/cover;
   color: var(--white);
   min-height: 520px;
   padding: 110px 24px;
